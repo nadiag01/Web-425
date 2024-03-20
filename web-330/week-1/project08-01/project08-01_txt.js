@@ -5,7 +5,7 @@
 
       Project to create a timer object
       Author: Nadia Gainer
-      Date:  03/20/24 
+      Date:  03/20/2024 
 
       Filename: project08-01.js
 */
