@@ -6,9 +6,9 @@
       Chapter 2
       Programming Assignment
 
-      Author:
-      Date:
-      Filename:
+      Author: Nadia Gainer
+      Date:04/21/24
+      Filename: Resteraunt-Reservation
     -->
     <title>Table Reservation</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -19,8 +19,8 @@
         <label for="name">Name:</label><br />
         <input type="text" id="name" name="name" /><br />
         <label for="tableNumber">Table Number:</label><br />
-        <input type="number" id="tableNumber" name="tableNumber" /><br />
-        <input type="submit" value="Reserve" />
+        <input type="number" min={1} max={4} id="tableNumber" name="tableNumber" /><br />
+        <button type= "submit" >Reserve</button>
       </form>
       <p id="message"></p>
     </div>

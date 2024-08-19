@@ -3,9 +3,15 @@
   Chapter 2
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Nadia Gainer
+  Date:04/21/24
+  Filename:resteraunt-reservation
 */
 
 /* Add your CSS styles here */
+body{
+background-color: tan;
+display: flex;
+justify-content: center;
+align-items: center;
+}

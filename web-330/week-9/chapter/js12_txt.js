@@ -5,8 +5,8 @@
     Chapter case
 
     Bonsai Expressions FAQ 
-    Author: 
-    Date:   
+    Author: Nadia Gainer
+    Date:   5/19/24
 
     Filename: js12.js
 */

@@ -3,9 +3,24 @@
   Chapter 1
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Nadia Gainer
+  Date:03/29/24
+  Filename: CSS 
 */
 
 /* Your CSS goes here */
+body { 
+  background-color:azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#mainContainer{
+  border: 1px solid;
+  padding: 10px;
+}
+
+
+
