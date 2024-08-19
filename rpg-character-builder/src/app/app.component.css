@@ -1,0 +1,20 @@
+.home-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.home-page h1 {
+    font-family: "Audiowide", sans-serif;
+}
+.home-page p {
+    font-family: 'Montserrat', sans-serif; /* A third font */
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.home-page img {
+    width: 200px; 
+    margin: 10px;
+}
+
