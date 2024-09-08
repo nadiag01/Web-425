@@ -22,9 +22,11 @@ describe('AppComponent', () => {
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, rpg-character-builder');
+
+    expect(compiled.querySelector('.home-page h1')?.textContent).toContain('rpg-character-builder');
   });
 
   
