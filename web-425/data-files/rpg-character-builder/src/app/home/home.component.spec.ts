@@ -8,9 +8,8 @@ describe('HomeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HomeComponent]
-    })
-    .compileComponents();
+      imports: [HomeComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
@@ -19,5 +18,13 @@ describe('HomeComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should render title', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+
+    expect(compiled.querySelector('.home-page h1')?.textContent).toContain(
+      'rpg-character-builder'
+    );
   });
 });

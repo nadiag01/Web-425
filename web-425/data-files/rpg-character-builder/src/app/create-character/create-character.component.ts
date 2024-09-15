@@ -9,12 +9,9 @@ interface Character {
 
 @Component({
   selector: 'app-create-character',
-  template: `
-  <p>
-  create-character works!
-  </P>
-`,
-  styles: ``
+  template: ` <p>create-character works!</p> `,
+  styles: ``,
+  standalone:true
 })
 export class CreateCharacterComponent {
   characters: Character[] = [];
@@ -24,12 +21,12 @@ export class CreateCharacterComponent {
   onSubmit(form: any) {
     if (form.valid) {
       const newCharacter: Character = {
+        ...this.character,
         id: Math.floor(Math.random() * 1000) + 1, // Random ID between 1 and 1000
-        ...this.character
       };
 
       this.characters.push(newCharacter);
-      this.resetForm(form);  // Reset form after submission
+      this.resetForm(form); // Reset form after submission
     }
   }
 
