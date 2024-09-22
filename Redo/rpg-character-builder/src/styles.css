@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* Basic Reset */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+h1 {
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Trirong", serif;
+  text-align: center;
+}
+
+p{
+  margin-left:20px;
+}
+
+nav {
+  background-color: #a28089;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #a28089;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav ul {
+  text-align: center;
+}
